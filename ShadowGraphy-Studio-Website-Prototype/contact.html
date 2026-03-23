@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us — Shadowgraphy Studio</title>
+  <link rel="stylesheet" href="assts/css/global.css"/>
+  <link rel="stylesheet" href="assts/css/pages.css"/>
+</head>
+<body data-page="contact">
+
+  <!-- CUSTOM CURSOR -->
+  <div id="cursor"></div>
+  <div id="cursor-follower"></div>
+
+  <section class="page-hero">
+    <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1600&q=85')"></div>
+    <div class="grain"></div>
+    <div class="page-hero-content">
+      <div class="page-breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Contact</div>
+      <h1>Let's <em>Connect</em></h1>
+      <p class="page-hero-sub">Book · Enquire · Collaborate</p>
+    </div>
+  </section>
+
+  <section class="contact-page section-pad">
+    <div class="contact-grid">
+
+      <!-- INFO -->
+      <div class="contact-info">
+        <span class="eyebrow" data-reveal="fade">Get in Touch</span>
+        <h2 class="section-title" data-reveal="up">Let's make<br><em>magic together.</em></h2>
+        <p class="section-sub" style="margin-top:1rem" data-reveal="up" data-delay="100">
+          Whether you're planning a wedding, a pre-wedding shoot, a birthday, or a brand shoot — we'd love to hear from you. Reach out and let's start creating.
+        </p>
+        <div class="ci-cards" data-reveal="up" data-delay="150">
+          <div class="ci-card">
+            <div class="ci-icon">◈</div>
+            <div class="ci-text">
+              <strong>Studio Address</strong>
+              <p>121, Shivom Kothi, M.G. Road,<br>Opp. TI Mall, Near Punjab Jewellers,<br>Indore, Madhya Pradesh 452001</p>
+            </div>
+          </div>
+          <div class="ci-card">
+            <div class="ci-icon">◉</div>
+            <div class="ci-text">
+              <strong>Phone / WhatsApp</strong>
+              <a href="tel:+919877777695">+91 98777 77695</a>
+            </div>
+          </div>
+          <div class="ci-card">
+            <div class="ci-icon">◇</div>
+            <div class="ci-text">
+              <strong>Email</strong>
+              <a href="mailto:shadowgraphystudio1@gmail.com">shadowgraphystudio1@gmail.com</a>
+            </div>
+          </div>
+          <div class="ci-card">
+            <div class="ci-icon">✦</div>
+            <div class="ci-text">
+              <strong>Studio Hours</strong>
+              <p>09:00 AM – 10:00 PM, Daily</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-socials" data-reveal="up" data-delay="200">
+          <a href="https://www.instagram.com/shadowgraphystudio/" target="_blank" class="cs-btn">Instagram</a>
+          <a href="https://www.facebook.com/shadowgraphystudio" target="_blank" class="cs-btn">Facebook</a>
+          <a href="https://www.youtube.com/c/SHADOWGRAPHYSTUDIOIndore" target="_blank" class="cs-btn">YouTube</a>
+        </div>
+        <div class="map-embed" data-reveal="up" data-delay="250">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.7993882773!2d75.877695!3d22.719568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd0d3dbbbbbb%3A0xabcdef123456789!2sShadowgraphy+Studio!5e0!3m2!1sen!2sin!4v1234567890"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- FORM -->
+      <div class="contact-form" data-reveal="right" data-delay="100">
+        <h3>Send an Enquiry</h3>
+        <form id="enquiry-form" novalidate>
+          <div class="form-row">
+            <div class="fg">
+              <input type="text" id="fn" name="name" placeholder=" " required/>
+              <label for="fn">Your Name *</label>
+            </div>
+            <div class="fg">
+              <input type="tel" id="fp" name="phone" placeholder=" " required/>
+              <label for="fp">Phone Number *</label>
+            </div>
+          </div>
+          <div class="fg">
+            <input type="email" id="fe" name="email" placeholder=" "/>
+            <label for="fe">Email Address</label>
+          </div>
+          <div class="fg">
+            <select id="fs" name="service">
+              <option value="">Select Service</option>
+              <option>Wedding Photography</option>
+              <option>Pre-Wedding Shoot</option>
+              <option>Cinematography / Film</option>
+              <option>Maternity Photography</option>
+              <option>Baby Photography</option>
+              <option>Birthday & Events</option>
+              <option>Fashion Photography</option>
+              <option>Commercial Photography</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="fg">
+              <input type="text" id="fdate" name="date" placeholder=" "/>
+              <label for="fdate">Event Date</label>
+            </div>
+            <div class="fg">
+              <input type="text" id="floc" name="location" placeholder=" "/>
+              <label for="floc">Location / City</label>
+            </div>
+          </div>
+          <div class="fg">
+            <textarea id="fm" name="message" rows="4" placeholder=" "></textarea>
+            <label for="fm">Your Message</label>
+          </div>
+          <button type="submit" class="btn btn-gold form-submit">Send Enquiry</button>
+          <div class="form-msg" id="form-msg"></div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section sp-section bg">
+    <div class="faq-inner">
+      <div class="faq-header">
+        <span class="eyebrow" data-reveal="fade">Common Questions</span>
+        <h2 class="section-title" data-reveal="up">Booking<br><em>FAQs.</em></h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q">How do I confirm my booking? <span>+</span></button>
+          <div class="faq-a">Simply reach out via the contact form, WhatsApp or call. We'll discuss your requirements, share a quote, and confirm your booking with a 25% advance payment.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How far in advance should I book? <span>+</span></button>
+          <div class="faq-a">We recommend 3–6 months in advance for weddings, especially during peak season (October to February). For smaller events and shoots, 2–4 weeks notice is usually sufficient.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Is the advance amount refundable? <span>+</span></button>
+          <div class="faq-a">The 25% booking advance is generally non-refundable as it blocks the date exclusively for you. We encourage you to book only when you're certain about the date.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Do you travel outside Indore? <span>+</span></button>
+          <div class="faq-a">Yes! We cover destinations across India and internationally. Travel and accommodation costs for outstation shoots are borne by the client.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">When will I receive my photos? <span>+</span></button>
+          <div class="faq-a">Edited photos are delivered within 2–3 weeks of the shoot. We use AI face search so you can instantly find your own photos in the shared gallery.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Do you cover multi-day weddings? <span>+</span></button>
+          <div class="faq-a">Absolutely. We offer multi-day coverage packages for full wedding festivities spanning Mehendi, Haldi, Sangeet, Baraat, Pheras and Reception over multiple days.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="assts/js/components.js"></script>
+  <script src="assts/js/global.js"></script>
+</body>
+</html>

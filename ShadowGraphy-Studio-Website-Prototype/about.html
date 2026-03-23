@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us — Shadowgraphy Studio</title>
+  <link rel="stylesheet" href="assts/css/global.css"/>
+  <link rel="stylesheet" href="assts/css/pages.css"/>
+  <style>
+    .about-story { padding: 7rem 7%; }
+    .as-grid { display:grid; grid-template-columns:1fr 1fr; gap:7rem; align-items:center; }
+    .as-img { height:580px; border-radius:2px; overflow:hidden; }
+    .as-text .section-title { margin-bottom:1.5rem; }
+    .as-text p { font-size:.9rem; color:var(--white-60); line-height:1.9; margin-bottom:1.1rem; }
+    .as-text p strong { color:var(--white); font-weight:400; }
+    .team-section { padding:6rem 7%; background:var(--dark); }
+    .team-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:2rem; margin-top:4rem; }
+    .team-card { text-align:center; }
+    .team-img { height:320px; border-radius:2px; overflow:hidden; margin-bottom:1.5rem; }
+    .team-name { font-family:var(--serif); font-size:1.4rem; margin-bottom:.3rem; }
+    .team-role { font-size:.65rem; letter-spacing:.3em; text-transform:uppercase; color:var(--gold); }
+    .team-bio { font-size:.82rem; color:var(--white-60); line-height:1.7; margin-top:.8rem; }
+    .values-section { padding:6rem 7%; }
+    .values-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:2rem; margin-top:4rem; }
+    .value-card { padding:2.5rem 2rem; border:1px solid var(--white-10); border-radius:2px; transition:border-color .3s; }
+    .value-card:hover { border-color:rgba(201,169,110,.3); }
+    .value-icon { font-size:1.8rem; color:var(--gold); margin-bottom:1rem; }
+    .value-card h4 { font-family:var(--serif); font-size:1.2rem; margin-bottom:.6rem; font-weight:400; }
+    .value-card p { font-size:.8rem; color:var(--white-60); line-height:1.7; }
+    .press-section { padding:5rem 7%; background:var(--dark-2); }
+    .press-logos { display:flex; flex-wrap:wrap; gap:3rem; justify-content:center; align-items:center; margin-top:3rem; }
+    .press-logo { font-family:var(--serif); font-size:1.1rem; color:var(--white-30); letter-spacing:.15em; transition:color .3s; }
+    .press-logo:hover { color:var(--gold-lt); }
+    @media(max-width:900px){ .as-grid{grid-template-columns:1fr;gap:3rem} .team-grid{grid-template-columns:1fr} .values-grid{grid-template-columns:1fr 1fr} }
+    @media(max-width:500px){ .values-grid{grid-template-columns:1fr} }
+  </style>
+</head>
+<body data-page="about">
+
+  <!-- CUSTOM CURSOR -->
+  <div id="cursor"></div>
+  <div id="cursor-follower"></div>
+
+  <section class="page-hero">
+    <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1600&q=85')"></div>
+    <div class="grain"></div>
+    <div class="page-hero-content">
+      <div class="page-breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; About</div>
+      <h1>About <em>Us</em></h1>
+      <p class="page-hero-sub">15+ Years of Visual Storytelling</p>
+    </div>
+  </section>
+
+  <section class="about-story">
+    <div class="as-grid">
+      <div class="as-img" data-reveal="scale">
+        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=700&q=80" alt="Shadowgraphy Studio"/>
+      </div>
+      <div class="as-text">
+        <span class="eyebrow" data-reveal="fade">Our Story</span>
+        <h2 class="section-title" data-reveal="up">Born from a passion<br><em>for real moments.</em></h2>
+        <p data-reveal="up" data-delay="100">Shadowgraphy Studio was founded with one powerful belief: <strong>the best photographs are the ones where subjects forget the camera exists.</strong></p>
+        <p data-reveal="up" data-delay="150">Led by <strong>Mr. Vicky Panchal</strong> — with over 15 years of hands-on experience in wedding and commercial photography — the studio has grown from a one-person operation into a full creative team trusted by hundreds of families across India.</p>
+        <p data-reveal="up" data-delay="200">We've been featured in <strong>WeddingBazaar, WedMeGood, Hindustan Times, and Wanderlog</strong>. Our work has taken us from the ghats of Maheshwar to the beaches of Goa to the deserts of Dubai — and every frame carries the same intention: to tell truth.</p>
+        <p data-reveal="up" data-delay="250">We also use cutting-edge <strong>AI face search technology</strong> to deliver personalised photo albums faster than anyone else — because we believe the joy of seeing your photos shouldn't wait.</p>
+        <a href="contact.html" class="btn btn-gold btn-arrow" data-reveal="up" data-delay="300" style="margin-top:1rem">Work With Us</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="team-section">
+    <div class="text-center">
+      <span class="eyebrow" data-reveal="fade">The Team</span>
+      <h2 class="section-title" data-reveal="up">The people behind<br><em>every frame.</em></h2>
+    </div>
+    <div class="team-grid">
+      <div class="team-card" data-reveal="up" data-delay="0">
+        <div class="team-img"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Vicky Panchal"/></div>
+        <div class="team-name">Vicky Panchal</div>
+        <div class="team-role">Founder & Lead Photographer</div>
+        <p class="team-bio">With 15+ years of experience, Vicky leads every shoot with an unobtrusive style that captures pure emotion. His eye for composition and storytelling is what makes Shadowgraphy Studio renowned.</p>
+      </div>
+      <div class="team-card" data-reveal="up" data-delay="120">
+        <div class="team-img"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80" alt="Team Member"/></div>
+        <div class="team-name">Creative Team</div>
+        <div class="team-role">Photographers & Videographers</div>
+        <p class="team-bio">Our team of skilled photographers and cinematographers are trained to work in sync — covering every angle so no moment, no matter how fleeting, is ever missed.</p>
+      </div>
+      <div class="team-card" data-reveal="up" data-delay="240">
+        <div class="team-img"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&q=80" alt="Editor"/></div>
+        <div class="team-name">Post-Production</div>
+        <div class="team-role">Editing & Retouching</div>
+        <p class="team-bio">Our editing team crafts each image with care — balancing colour, light, and mood to create a cohesive, beautiful album. Every photo tells a story worth keeping.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="values-section">
+    <div class="text-center">
+      <span class="eyebrow" data-reveal="fade">What We Stand For</span>
+      <h2 class="section-title" data-reveal="up">Our values,<br><em>our promise.</em></h2>
+    </div>
+    <div class="values-grid">
+      <div class="value-card" data-reveal="up" data-delay="0">
+        <div class="value-icon">◈</div>
+        <h4>Authenticity</h4>
+        <p>We capture real moments, not staged performances. Every image reflects genuine emotion.</p>
+      </div>
+      <div class="value-card" data-reveal="up" data-delay="80">
+        <div class="value-icon">◉</div>
+        <h4>Excellence</h4>
+        <p>15+ years of refinement in craft, technique and post-production — no shortcuts, ever.</p>
+      </div>
+      <div class="value-card" data-reveal="up" data-delay="160">
+        <div class="value-icon">◇</div>
+        <h4>Connection</h4>
+        <p>We take time to understand you before the shoot, so you're always comfortable in front of our lens.</p>
+      </div>
+      <div class="value-card" data-reveal="up" data-delay="240">
+        <div class="value-icon">✦</div>
+        <h4>Innovation</h4>
+        <p>AI-powered face search, drone footage, and cinematic film — we stay ahead so you get the best.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="press-section">
+    <div class="text-center">
+      <span class="eyebrow" data-reveal="fade">As Seen In</span>
+      <h2 class="section-title" data-reveal="up">Recognised by<br><em>the best.</em></h2>
+    </div>
+    <div class="press-logos" data-reveal="up" data-delay="200">
+      <span class="press-logo">WeddingBazaar</span>
+      <span class="press-logo">WedMeGood</span>
+      <span class="press-logo">Hindustan Times</span>
+      <span class="press-logo">Wanderlog</span>
+      <span class="press-logo">WeddingWire</span>
+      <span class="press-logo">VenueLook</span>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <span class="eyebrow" data-reveal="fade">Ready?</span>
+    <h2 class="section-title" data-reveal="up">Let's create something<br><em>extraordinary.</em></h2>
+    <div class="cta-band-btns" data-reveal="up" data-delay="150">
+      <a href="contact.html" class="btn btn-gold btn-arrow">Book a Session</a>
+      <a href="portfolio.html" class="btn btn-ghost">View Portfolio</a>
+    </div>
+  </section>
+
+  <script src="assts/js/components.js"></script>
+  <script src="assts/js/global.js"></script>
+</body>
+</html>

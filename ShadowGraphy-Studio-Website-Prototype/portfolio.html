@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Shadowgraphy Studio</title>
+  <link rel="stylesheet" href="assts/css/global.css"/>
+  <link rel="stylesheet" href="assts/css/pages.css"/>
+</head>
+<body data-page="portfolio">
+
+  <!-- CUSTOM CURSOR -->
+  <div id="cursor"></div>
+  <div id="cursor-follower"></div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1519741497674-611481863552?w=1600&q=85')"></div>
+    <div class="grain"></div>
+    <div class="page-hero-content">
+      <div class="page-breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Portfolio</div>
+      <h1><em>Our</em> Portfolio</h1>
+      <p class="page-hero-sub">Wedding · Pre-Wedding · Maternity · Fashion · Events · Commercial</p>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO GRID -->
+  <section class="portfolio-page section-pad">
+    <div class="portfolio-filters">
+      <button class="pf-btn active" data-filter="all">All Work</button>
+      <button class="pf-btn" data-filter="wedding">Wedding</button>
+      <button class="pf-btn" data-filter="prewedding">Pre-Wedding</button>
+      <button class="pf-btn" data-filter="maternity">Maternity</button>
+      <button class="pf-btn" data-filter="baby">Baby</button>
+      <button class="pf-btn" data-filter="birthday">Birthday & Events</button>
+      <button class="pf-btn" data-filter="fashion">Fashion</button>
+      <button class="pf-btn" data-filter="commercial">Commercial</button>
+    </div>
+
+    <div class="port-grid" id="port-grid">
+      <!-- WEDDING -->
+      <div class="port-item visible" data-cat="wedding"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80" alt="Wedding" data-label="Wedding"/><div class="port-overlay"><span class="port-label">Wedding</span></div></div>
+      <div class="port-item visible" data-cat="wedding"><img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&q=80" alt="Wedding" data-label="Wedding"/><div class="port-overlay"><span class="port-label">Wedding</span></div></div>
+      <div class="port-item visible" data-cat="wedding"><img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&q=80" alt="Wedding" data-label="Wedding"/><div class="port-overlay"><span class="port-label">Wedding</span></div></div>
+      <div class="port-item visible" data-cat="wedding"><img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&q=80" alt="Wedding" data-label="Wedding"/><div class="port-overlay"><span class="port-label">Wedding</span></div></div>
+      <div class="port-item visible" data-cat="wedding"><img src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=600&q=80" alt="Wedding Ceremony" data-label="Wedding Ceremony"/><div class="port-overlay"><span class="port-label">Wedding</span></div></div>
+
+      <!-- PRE-WEDDING -->
+      <div class="port-item visible" data-cat="prewedding"><img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=600&q=80" alt="Pre-Wedding" data-label="Pre-Wedding Shoot"/><div class="port-overlay"><span class="port-label">Pre-Wedding</span></div></div>
+      <div class="port-item visible" data-cat="prewedding"><img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=600&q=80" alt="Pre-Wedding" data-label="Pre-Wedding Shoot"/><div class="port-overlay"><span class="port-label">Pre-Wedding</span></div></div>
+      <div class="port-item visible" data-cat="prewedding"><img src="https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?w=600&q=80" alt="Pre-Wedding" data-label="Pre-Wedding Shoot"/><div class="port-overlay"><span class="port-label">Pre-Wedding</span></div></div>
+      <div class="port-item visible" data-cat="prewedding"><img src="https://images.unsplash.com/photo-1621184455862-c163dfb30e0f?w=600&q=80" alt="Pre-Wedding" data-label="Pre-Wedding"/><div class="port-overlay"><span class="port-label">Pre-Wedding</span></div></div>
+
+      <!-- MATERNITY -->
+      <div class="port-item visible" data-cat="maternity"><img src="https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=600&q=80" alt="Maternity" data-label="Maternity Shoot"/><div class="port-overlay"><span class="port-label">Maternity</span></div></div>
+      <div class="port-item visible" data-cat="maternity"><img src="https://images.unsplash.com/photo-1559703248-dcaaec9fab78?w=600&q=80" alt="Maternity" data-label="Maternity"/><div class="port-overlay"><span class="port-label">Maternity</span></div></div>
+      <div class="port-item visible" data-cat="maternity"><img src="https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?w=600&q=80" alt="Maternity" data-label="Maternity"/><div class="port-overlay"><span class="port-label">Maternity</span></div></div>
+
+      <!-- BABY -->
+      <div class="port-item visible" data-cat="baby"><img src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=600&q=80" alt="Baby Shoot" data-label="Baby Photography"/><div class="port-overlay"><span class="port-label">Baby</span></div></div>
+      <div class="port-item visible" data-cat="baby"><img src="https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=600&q=80" alt="Baby" data-label="Baby Photography"/><div class="port-overlay"><span class="port-label">Baby</span></div></div>
+
+      <!-- BIRTHDAY & EVENTS -->
+      <div class="port-item visible" data-cat="birthday"><img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&q=80" alt="Birthday" data-label="Birthday Celebration"/><div class="port-overlay"><span class="port-label">Birthday</span></div></div>
+      <div class="port-item visible" data-cat="birthday"><img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600&q=80" alt="Event" data-label="Event Photography"/><div class="port-overlay"><span class="port-label">Events</span></div></div>
+      <div class="port-item visible" data-cat="birthday"><img src="https://images.unsplash.com/photo-1496843916299-590492c751f4?w=600&q=80" alt="Party" data-label="Party Shoot"/><div class="port-overlay"><span class="port-label">Events</span></div></div>
+
+      <!-- FASHION -->
+      <div class="port-item visible" data-cat="fashion"><img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&q=80" alt="Fashion" data-label="Fashion Photography"/><div class="port-overlay"><span class="port-label">Fashion</span></div></div>
+      <div class="port-item visible" data-cat="fashion"><img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80" alt="Model" data-label="Fashion Shoot"/><div class="port-overlay"><span class="port-label">Fashion</span></div></div>
+      <div class="port-item visible" data-cat="fashion"><img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80" alt="Editorial" data-label="Editorial"/><div class="port-overlay"><span class="port-label">Fashion</span></div></div>
+
+      <!-- COMMERCIAL -->
+      <div class="port-item visible" data-cat="commercial"><img src="https://images.unsplash.com/photo-1542744094-24638eff58bb?w=600&q=80" alt="Commercial" data-label="Commercial Photography"/><div class="port-overlay"><span class="port-label">Commercial</span></div></div>
+      <div class="port-item visible" data-cat="commercial"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80" alt="Product" data-label="Product Photography"/><div class="port-overlay"><span class="port-label">Commercial</span></div></div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close">×</button>
+    <button class="lb-nav lb-prev">‹</button>
+    <img class="lb-img" id="lb-img" src="" alt=""/>
+    <button class="lb-nav lb-next">›</button>
+    <div class="lb-caption" id="lb-cap"></div>
+  </div>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <span class="eyebrow" data-reveal="fade">Book Now</span>
+    <h2 class="section-title" data-reveal="up">Like what you see?<br><em>Let's create together.</em></h2>
+    <div class="cta-band-btns" data-reveal="up" data-delay="150">
+      <a href="contact.html" class="btn btn-gold btn-arrow">Start Your Journey</a>
+      <a href="packages.html" class="btn btn-ghost">View Packages</a>
+    </div>
+  </section>
+
+  <script src="assts/js/components.js"></script>
+  <script src="assts/js/global.js"></script>
+  <script src="assts/js/portfolio.js"></script>
+</body>
+</html>
